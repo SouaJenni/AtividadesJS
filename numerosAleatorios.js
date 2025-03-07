@@ -1,25 +1,20 @@
-const numero = [];
+const numeros = [];
 
 for(let i = 0; i < 101; i++){
-    numero[i] = Math.floor(Math.random() * 101);
+    numeros[i] = Math.floor(Math.random() * 101);
 }
 
-const numerosPares = numero.filter((numero)=> {
-    if(numero%2 === 0){
-        return numero;
-    }
-});
+const numerosPares = numeros.filter((numero)=> numero%2 === 0);
 
-const numerosImpares = numero.filter((numero)=> {
-    if(numero%2 !== 0){
-        return numero;
-    }
-});
+const numerosImpares = numeros.filter((numero)=> numero%2 !== 0);
 
-const maiorQueDez = numero.filter((numero) => numero > 10);
+const maiorQueDez = numeros.filter((numero) => numero > 10);
 
+console.log("Números pares:");
 console.log(numerosPares);
 console.log("------------------------------");
+console.log("Números ímpares:");
 console.log(numerosImpares);
 console.log("------------------------------");
+console.log("Números maiores que 10:");
 console.log(maiorQueDez);
