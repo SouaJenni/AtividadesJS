@@ -17,3 +17,6 @@ const calcularIMC = pessoa.map((pessoa) => {
 });
 
 console.log(JSON.stringify(calcularIMC));
+
+//Complexidade assintótica: não sei, mas provavelmente aumenta a complexidade de acordo com a(s)
+//operação(s) que o código precisa fazer ou tamanho o do objeto, nesse caso, acredito ser um O(log n)
