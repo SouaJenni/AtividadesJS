@@ -33,5 +33,3 @@ function definirVencedor(jogador, computador){
 console.log("O jogador escolheu: ", escolha(jogador));
 console.log("O computador escolheu: ", escolha(computador));
 console.log(definirVencedor(jogador, computador));
-
-//Complexidade assintótica: O(log n), mesmo com mais opções não perderia tanta eficiência

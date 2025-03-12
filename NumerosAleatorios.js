@@ -19,4 +19,4 @@ console.log("------------------------------");
 console.log("Números maiores que 10:");
 console.log(maiorQueDez);
 
-//Complexidade assintótica: O(n), vai ficando um pouco mais lento quanto mais itens
+//Complexidade assintótica: O(4n + 8)

@@ -27,4 +27,4 @@ function adivinharNumero(){
 
 console.log(adivinharNumero());
 
-//Complexidade assintótica: O(n²), quanto mais números mais lento fica, mas com o tempo acaba ficando muito lento
+//Complexidade assintótica: O Infinity, o código depende de um número aleatório para parar

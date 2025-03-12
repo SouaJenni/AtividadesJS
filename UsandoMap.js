@@ -1,6 +1,6 @@
 const numeros = [];
 
-for(let i = 0; i < 101; i++){
+for(let i = 0; i <= 100; i++){
     numeros[i] = Math.floor(Math.random() * 101);
 }
 
@@ -25,4 +25,4 @@ console.log("----------------------------");
 console.log("Números /2: ");
 console.log(divididosPorDois);
 
-//Complexidade assintótica: O(n), maiores valores tornariam mais lento
+//Complexidade assintótica: O(3n + 8)
