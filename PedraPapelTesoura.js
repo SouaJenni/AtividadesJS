@@ -4,11 +4,11 @@ const computador = Math.floor(Math.random() * 3);
 function escolha(opcao){
     if(opcao === 0){
         return "Pedra";
-    }else if(opcao === 1){
-        return "Papel";
-    }else{
-        return "Tesoura";
     }
+    if(opcao === 1){
+        return "Papel";
+    }
+    return "Tesoura";
 }
 
 function definirVencedor(jogador, computador){
@@ -17,17 +17,19 @@ function definirVencedor(jogador, computador){
     if(escolhaJogador === 0 && escolhaComputador === 2){
         console.log("Pedra esmaga tesoura!");
         return "Jogador venceu!";
-    }else if(escolhaJogador === 1 && escolhaComputador === 0){
+    }
+    if(escolhaJogador === 1 && escolhaComputador === 0){
         console.log("Papel embrulha pedra!");
         return "Jogador venceu!";
-    }else if(escolhaJogador === 2 && escolhaComputador === 1){
+    }
+    if(escolhaJogador === 2 && escolhaComputador === 1){
         console.log("Tesoura corta papel!");
         return "Jogador venceu!";
-    }else if(escolhaJogador === escolhaComputador){
-        return "Mesma escolha, empate!";
-    }else{
-        return "O computador venceu!";
     }
+    if(escolhaJogador === escolhaComputador){
+        return "Mesma escolha, empate!";
+    }
+    return "O computador venceu!";
 }
 
 console.log("O jogador escolheu: ", escolha(jogador));

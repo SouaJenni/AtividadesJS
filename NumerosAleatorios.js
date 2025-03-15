@@ -19,4 +19,4 @@ console.log("------------------------------");
 console.log("Números maiores que 10:");
 console.log(maiorQueDez);
 
-//Complexidade assintótica: O(4n + 8)
+//Complexidade assintótica: O(4n) -> aproximadamente O(n)

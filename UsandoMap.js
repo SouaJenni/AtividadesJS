@@ -25,4 +25,4 @@ console.log("----------------------------");
 console.log("Números /2: ");
 console.log(divididosPorDois);
 
-//Complexidade assintótica: O(3n + 8)
+//Complexidade assintótica: O(3n) -> aproximadamente O(n)

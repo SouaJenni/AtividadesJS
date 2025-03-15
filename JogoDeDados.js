@@ -15,4 +15,4 @@ do{
     }
 }while(jogador1 === jogador2);
 
-// Complexidade assintótica: O(n + 5)
+// Complexidade assintótica: O(n)

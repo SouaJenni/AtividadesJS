@@ -27,4 +27,4 @@ function adivinharNumero(){
 
 console.log(adivinharNumero());
 
-//Complexidade assintótica: O Infinity, o código depende de um número aleatório para parar
+//Complexidade assintótica: O Infinity

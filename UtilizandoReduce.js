@@ -23,4 +23,4 @@ console.log("Resultado: ", multiplicarTodos);
 console.log("Média::");
 console.log("Resultado: ", media);
 
-//Complexidade assintótica: O(3n + 6)
+//Complexidade assintótica: O(3n) -> aproximadamente O(n)
